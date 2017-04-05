@@ -38,7 +38,6 @@
     "gulp-util": "^3.0.8",
     "minimatch": "^3.0.3",
     "mkdirp": "^0.5.1",
-    "through": "^2.3.8",
     "vinyl-paths": "^2.1.0"
   },
   "devDependencies": {
