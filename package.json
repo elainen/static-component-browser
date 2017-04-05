@@ -1,5 +1,5 @@
 {
-  "name": "@elainen/static-component-browser",
+  "name": "@hzdg/static-component-browser",
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/elainen/static-component-browser.git"
+    "url": "git+https://github.com/hzdg/static-component-browser.git"
   },
   "author": "Elaine Hilliard <elainenh7@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/elainen/static-component-browser/issues"
+    "url": "https://github.com/hzdg/static-component-browser/issues"
   },
-  "homepage": "https://github.com/elainen/static-component-browser#readme",
+  "homepage": "https://github.com/hzdg/static-component-browser#readme",
   "dependencies": {
     "babel-eslint": "^7.2.1",
     "del": "^2.2.2",

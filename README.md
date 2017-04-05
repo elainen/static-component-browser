@@ -4,7 +4,7 @@ A utility to browse through static components using nunjucks.
 
 
 ## Installation
-`npm install @elainen/static-component-browser`
+`npm install @hzdg/static-component-browser`
 
 
 
