@@ -1,7 +1,7 @@
 {
   "name": "@hzdg/static-component-browser",
   "version": "0.1.0",
-  "description": "",
+  "description": "A utility to browse through static components using Nunjucks",
   "main": "index.js",
   "scripts": {
     "test": "jest"
@@ -10,6 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/hzdg/static-component-browser.git"
   },
+  "keywords": [
+    "static",
+    "browser",
+    "component",
+    "components",
+    "nunjucks"
+  ],
   "author": "Elaine Hilliard <elainenh7@gmail.com>",
   "license": "MIT",
   "bugs": {
