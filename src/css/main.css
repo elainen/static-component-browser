@@ -1,0 +1,60 @@
+body, html {
+  margin: 0;
+  height: 100%;
+}
+
+.component-browser {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100%;
+}
+
+.component-browser__sidebar {
+  display: flex;
+  flex: 0 0 25%;
+  max-width: 250px;
+  padding: 20px;
+  background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 90%,rgba(0,0,0,0.02) 100%);
+}
+
+.component-browser__sidebar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.component-browser__sidebar ul li a {
+  color: #525252;
+  font-weight: 400;
+}
+
+.component-browser__sidebar ul li em {
+  margin-top: 15px;
+  font-weight: 600;
+  font-style: normal;
+  display: block;
+}
+
+.component-browser__sidebar a[data-selected="true"] {
+  color: #e89d12;
+  font-weight: 500;
+}
+
+.component-browser__component {
+  display: flex;
+  flex: auto;
+}
+
+
+.component-browser__component__wrapper {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.component-browser__sidebar ul ul {
+  padding-left: 15px;
+}

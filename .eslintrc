@@ -1,0 +1,8 @@
+{
+  "extends": "hzdg",
+  "rules": {
+    "arrow-body-style": 0,
+    "no-unused-vars": 1,
+    "no-implicit-coercion": 0,
+  }
+}

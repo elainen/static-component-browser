@@ -1,0 +1,40 @@
+{
+  "name": "@elainen/static-component-browser",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elainen/static-component-browser.git"
+  },
+  "author": "Elaine Hilliard <elainenh7@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elainen/static-component-browser/issues"
+  },
+  "homepage": "https://github.com/elainen/static-component-browser#readme",
+  "dependencies": {
+    "babel-eslint": "^7.2.1",
+    "del": "^2.2.2",
+    "eslint": "^3.19.0",
+    "eslint-config-hzdg": "^0.5.0",
+    "eslint-plugin-babel": "^4.1.1",
+    "event-stream": "^3.3.4",
+    "gulp": "^3.9.1",
+    "gulp-change": "^1.0.0",
+    "gulp-clean": "^0.3.2",
+    "gulp-if": "^2.0.2",
+    "gulp-nunjucks-render": "^2.0.0",
+    "gulp-util": "^3.0.8",
+    "minimatch": "^3.0.3",
+    "mkdirp": "^0.5.1",
+    "through": "^2.3.8",
+    "vinyl-paths": "^2.1.0"
+  },
+  "devDependencies": {
+    "jest": "^19.0.2"
+  }
+}
