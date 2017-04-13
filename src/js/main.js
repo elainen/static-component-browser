@@ -25,7 +25,7 @@ const createNavDOM = (path, treeObject) => {
   if (treeObject.children === null) {
     return `<li>\n<a href="${path}/${treeObject.name}">${cleanLinkName(treeObject.name)}</a>\n</li>`;
   } else {
-    let childrenList = `<li>\n<em>${treeObject.name}</em>\n<ul>\n`;
+    let childrenList = `<li>\n<em>${cleanLinkName(treeObject.name)}</em>\n<ul>\n`;
     for (const child of treeObject.children) {
       childrenList = childrenList.concat(createNavDOM(`${path}/${treeObject.name}`, child));
     }
