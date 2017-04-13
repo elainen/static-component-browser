@@ -48,16 +48,29 @@ const renderNavigationItems = ({sideBarSelector, componentBrowserPath}) => {
       }
     }
 
-    let results = '<ul>\n';
+    let results = '<div class="sidebar-wrapper"><div class="toggle-icon"></div><ul>\n';
     for (const item of navigationTree) {
       results = results.concat(createNavDOM(`/${componentBrowserPath}`, item));
     }
-    results = results.concat('</ul>');
+    results = results.concat('</ul></div>');
 
     const xmlString = results;
     const parser = new DOMParser();
     const doc = parser.parseFromString(xmlString, 'text/html');
     sideBarDOMElement.appendChild(doc.body.firstChild);
+
+    // Create sidebar toggle button
+    const toggleIcon = document.querySelector('.toggle-icon');
+    if (toggleIcon) {
+      toggleIcon.addEventListener('click', () => {
+        const isClosed = sideBarDOMElement.dataset.close;
+        if (isClosed === 'true') {
+          sideBarDOMElement.setAttribute('data-close', 'false');
+        } else {
+          sideBarDOMElement.setAttribute('data-close', 'true');
+        }
+      });
+    }
   }
 };
 
