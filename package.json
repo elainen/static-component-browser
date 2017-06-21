@@ -1,5 +1,5 @@
 {
-  "name": "@hzdg/static-component-browser",
+  "name": "static-component-browser",
   "version": "0.2.0",
   "description": "A utility to browse through static components using Nunjucks",
   "main": "index.js",
