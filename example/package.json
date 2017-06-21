@@ -1,0 +1,17 @@
+{
+  "name": "static-component-browser-example",
+  "version": "0.0.0",
+  "description": "Static Component Browser Example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-nunjucks-render": "^2.2.1",
+    "static-component-browser": "^0.2.0"
+  }
+}

@@ -3,6 +3,10 @@
 A utility to browse through static components using nunjucks.
 
 
+## Example
+Check out the `/example` directory for a bare bone example.
+
+
 ## Installation
 `npm install static-component-browser --save`
 
