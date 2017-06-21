@@ -4,7 +4,7 @@ A utility to browse through static components using nunjucks.
 
 
 ## Installation
-`npm install github:hzdg/static-component-browser --save-dev`
+`npm install static-component-browser --save`
 
 
 
