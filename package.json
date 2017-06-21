@@ -1,6 +1,6 @@
 {
   "name": "static-component-browser",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A utility to browse through static components using Nunjucks",
   "main": "index.js",
   "scripts": {
